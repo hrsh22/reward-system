@@ -14,21 +14,10 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-slate-600">
-                Notus NextJS - A beautiful extension for Tailwind CSS.
+                Voucherify - A loyalty points system for increasing customer retention and engagement.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                Notus NextJS is Free and Open Source. It does not change any of
-                the CSS from{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-slate-600"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Tailwind CSS
-                </a>
-                . It features multiple HTML elements and it comes with dynamic
-                components for ReactJS, Vue and Angular.
+                Voucherify creates a points-based customer loyalty programs with various earning rules. Build customer loyalty, by rewarding customers for their purchases, behavior, or specific interactions.It engages shoppers year-around, increase customer lifetime value and turn visitors into raving fans with our enterprise ready loyalty points platform.
               </p>
               <div className="mt-12">
                 <a
@@ -38,13 +27,13 @@ export default function Index() {
                 >
                   Get started
                 </a>
-                <a
+                {/* <a
                   href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
                   className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-slate-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
                   Github Star
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -78,7 +67,7 @@ export default function Index() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-            <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+            {/* <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                 <img
                   alt="..."
@@ -108,53 +97,109 @@ export default function Index() {
                   </p>
                 </blockquote>
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full md:w-6/12 px-4">
+            <div className="max-w-[1248px] mx-auto flex flex-col justify-center h-full">
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-sitemap"></i>
+                        <i className="fa-solid fa-thumbs-up"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        CSS Components
+                      Easy integration
                       </h6>
                       <p className="mb-4 text-slate-500">
-                        Notus NextJS comes with a huge number of Fully Coded CSS
-                        components.
+                      with any platform - on-premise or in the cloud
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-drafting-compass"></i>
+                        <i className="fa-sharp fa-solid fa-brain-circuit"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
-                        JavaScript Components
+                      Next-gen loyalty logic
                       </h6>
                       <p className="mb-4 text-slate-500">
-                        We also feature many dynamic components for React,
-                        NextJS, Vue and Angular.
+                      with multi gamified touch points
+
                       </p>
                     </div>
                   </div>
+
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-sharp fa-solid fa-brain-circuite"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-semibold">
+                      Redemption marketplace
+                      </h6>
+                      <p className="mb-4 text-slate-500">
+                      covering 20+ categories and 5000+ brands
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-tower-control"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-semibold">
+                      Total control over loyalty logic                             
+                      </h6>
+                      <p className="mb-4 text-slate-500">
+                      While you focus on your business rules, we will apply your logic and automate your loyalty rewards.
+                      </p>
+                    </div>
+                  </div>
+
+
                 </div>
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-newspaper"></i>
+                        <i className="fa-regular fa-rabbit-running"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Pages</h6>
+                      <h6 className="text-xl mb-1 font-semibold">Speed at your service</h6>
                       <p className="mb-4 text-slate-500">
-                        This extension also comes with 3 sample pages. They are
-                        fully coded so you can start working instantly.
+                      Get started with our dashboard and integrate our Loyalty API in less than one day
                       </p>
                     </div>
                   </div>
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-sharp fa-solid fa-handshake"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-semibold">
+                      Enterprise ready from day one
+                      </h6>
+                      <p className="mb-4 text-slate-500">
+                      Trusted by over 1,000 global brands, processing millions of points & rewards daily with 99% uptime.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="relative flex flex-col min-w-0">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-headset"></i>
+                      </div>
+                      <h6 className="text-xl mb-1 font-semibold">
+                        Support for any front-end applications
+                      </h6>
+                      <p className="mb-4 text-slate-500">
+                        Build tailor-made loyalty mechaics with personalized user experiences at any touchpoint
+                      </p>
+                    </div>
+                  </div>
+
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
@@ -169,250 +214,288 @@ export default function Index() {
                       </p>
                     </div>
                   </div>
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
 
+
+
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-sitemap text-xl"></i>
+              <div className="uppercase text-xl tracking-widest text-[#da3737]">
+              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
+                     POINTS ACCURAL
+                </p>
               </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                CSS Components
+              <h3 className="text-5xl mb-2 font-semibold leading-normal">
+                Earn & Burn
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                Every element that you need in a product comes built in as a
-                component. All components fit perfectly with each other and can
-                have different colours.
+              Encourage repeat purchase and improve customer loyalty by introducing points-based loyalty program that rewards customers for specific behaviors.
               </p>
+              
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
+                Rewards points based on custom triggers:
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Give out points based on any custom event, behaviours, transaction or time. From referring a new customer, subscribing to content, making repeat purchase the possibilities are endless.
+              </p>
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
+              Diverse reward redemption capabilities:
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Delight your members by allowing them to redeem their points in many ways - from your own ecosystem (accrued points as money), on a rewards catalog buy digital vouchers of brands, pay with points
+              </p>
+            
               <div className="block pb-6">
+               <div className=" font-medium">Best fit for:
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Buttons
+                Service
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Inputs
+                Hospitality
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Labels
+                Electronics
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Retail
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
+                  Beauty
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Pagination
+                  Fashion & Lifestyle
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Progressbars
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Typography
-                </span>
+                </div>
               </div>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                target="_blank"
-                className="font-bold text-slate-700 hover:text-slate-500 ease-linear transition-all duration-150"
-              >
-                View All{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
+              
             </div>
 
-            <div className="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-                <img
-                  alt="..."
-                  src="/img/component-btn.png"
-                  className="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
-                />
-                <img
-                  alt="..."
-                  src="/img/component-profile-card.png"
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
-                />
-                <img
-                  alt="..."
-                  src="/img/component-info-card.png"
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
-                />
-                <img
-                  alt="..."
-                  src="/img/component-info-2.png"
-                  className="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
-                />
-                <img
-                  alt="..."
-                  src="/img/component-menu.png"
-                  className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
-                />
-                <img
-                  alt="..."
-                  src="/img/component-btn-pink.png"
-                  className="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
-                />
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d001f08ef26093ede43_ezgif-3-45137881d4-p-800.webp"
+              />
+                
+                
               </div>
             </div>
           </div>
 
           <div className="flex flex-wrap items-center pt-32">
-            <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
-              <div className="justify-center flex flex-wrap relative">
-                <div className="my-4 w-full lg:w-6/12 px-4">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Svelte
-                      </p>
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-sky-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        ReactJS
-                      </p>
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-slate-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        NextJS
-                      </p>
-                    </div>
-                  </a>
-                </div>
-                <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        JavaScript
-                      </p>
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
-                      </p>
-                    </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Vue.js
-                      </p>
-                    </div>
-                  </a>
-                </div>
+
+          <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+              <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629a19007b79402bff3a39ed_Tiered%20Loyalty-p-800.webp"
+              />
+                
+                
               </div>
             </div>
+            
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-drafting-compass text-xl"></i>
+              <div className="">
+              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
+                     TIERS AND LEVELS
+                </p>
               </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Javascript Components
+              <h3 className="text-5xl mb-2 font-semibold leading-normal">
+                Tiered Loyalty
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                In order to create a great User Experience some components
-                require JavaScript. In this way you can manipulate the elements
-                on the page and give more options to your users.
+              Encourage customers to spend more by enticing them with incremental benefits as they move up the tier.
               </p>
+              
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
+                Out-of-the-box loyalty campaigns:
+              </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-                We created a set of Components that are dynamic and come to help
-                you.
+              Offer unique experience and flexible reward options based on tiers and keep your customers engaged over a long period of time. Higher customer retention = Improved CLV
+              </p>
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
+              Integrated experience:
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Stay competitive without feeding into the discount culture that devaluates your products. Give your affluent buyers an exclusive experience and VIP treatment.
               </p>
               <div className="block pb-6">
+              <div className=" font-medium">Best fit for:
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
+                  LMS
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
+                  Gaming Apps
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Retail
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
+                 Fashion & Lifestyle
                 </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Popovers
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tabs
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tooltips
-                </span>
+                </div>
               </div>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
-                target="_blank"
-                className="font-bold text-slate-700 hover:text-slate-500 ease-linear transition-all duration-150"
-              >
-                View all{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
+              
             </div>
           </div>
+
+
+
+
+
+          <div className="flex flex-wrap items-center">
+            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+              <div className="uppercase text-xl tracking-widest text-[#da3737]">
+              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
+                    JOIN, PLAY & UNLOCK
+                </p>
+              </div>
+              <h3 className="text-5xl mb-2 font-semibold leading-normal">
+                Gamified Loyalty
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Encourage customers to interact with your brand regularly by keeping them hooked with challenges and increase customer retention.
+              </p>
+              
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
+                Take your branding to new level with badges:
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Encourage recurring behaviour by associating challenges with benefit. Keep it interesting with rule-based rewards that delights.
+              </p>
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
+              Set up event-based challenges to prompt actions:
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Go beyond transactions. Incentive customers to engage on social media, create content, answer polls, daily streaks, and signup anniversary.
+              </p>
+            
+              <div className="block pb-6">
+               <div className=" font-medium">Best fit for:
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                Luxury brands
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                Services
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                Wellness
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                Home Decor
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Fashion & Lifestyle
+                </span>
+                </div>
+              </div>
+              
+            </div>
+
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+              <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629eea1297a044778d2e07d5_Play%20%26%20Win.png"
+              />
+                
+                
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center pt-32">
+
+          <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+              <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d4c418e44607675d695_ezgif-3-9f50ed30f3-p-800.webp"
+              />
+                
+                
+              </div>
+            </div>
+            
+
+            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+              <div className="">
+              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
+                     DEALS & OFFERS
+                </p>
+              </div>
+              <h3 className="text-5xl mb-2 font-semibold leading-normal">
+                Benefit Loyalty
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Generate an emotional attachment and a sense of belongingness  to the brand with exclusive benefits which leads to recurring purchase.
+              </p>
+              
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
+               Support brand building:
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Pre-negotiated deals and offer allow you to give your loyalty members a series of benefits on a regular basis. Which in turn makes the shopping experience great for its members and drives customer acquisition
+              </p>
+              <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
+               High value for actual cost:
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
+              Pre negotiated deals such as exclusive services and transaction-related privileges gives your brand a higher perceived value, though they come at a relatively lower cost for companies.
+              </p>
+              <div className="block pb-6">
+              <div className=" font-medium">Best fit for:
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                Fast fashion
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Beauty
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                  Luxury brands
+                </span>
+                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                 Service
+                </span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+
+
+
+
+
         </div>
 
         <div className="container mx-auto px-4 pb-32 pt-48">
