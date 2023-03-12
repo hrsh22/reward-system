@@ -118,7 +118,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-sharp fa-solid fa-brain-circuit"></i>
+                        <i className="fa-solid fa-brain"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                       Next-gen loyalty logic
@@ -132,8 +132,8 @@ export default function Index() {
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-sharp fa-solid fa-brain-circuite"></i>
+                      <div className=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-globe"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                       Redemption marketplace
@@ -146,8 +146,8 @@ export default function Index() {
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-tower-control"></i>
+                      <div className=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-chess-king"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">
                       Total control over loyalty logic                             
@@ -164,7 +164,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-regular fa-rabbit-running"></i>
+                        <i className="fa-solid fa-truck-fast"></i>
                       </div>
                       <h6 className="text-xl mb-1 font-semibold">Speed at your service</h6>
                       <p className="mb-4 text-slate-500">
@@ -228,7 +228,7 @@ export default function Index() {
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="uppercase text-xl tracking-widest text-[#da3737]">
               <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                     POINTS ACCURAL
+                    <span className="">POINTS ACCURAL</span> 
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
@@ -302,7 +302,7 @@ export default function Index() {
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
                   transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                    "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
                 }}
                 src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629a19007b79402bff3a39ed_Tiered%20Loyalty-p-800.webp"
               />
@@ -436,7 +436,7 @@ export default function Index() {
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
                   transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                    "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
                 }}
                 src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d4c418e44607675d695_ezgif-3-9f50ed30f3-p-800.webp"
               />
