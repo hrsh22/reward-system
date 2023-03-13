@@ -227,11 +227,12 @@ export default function Index() {
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="uppercase text-xl tracking-widest text-[#da3737]">
-              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                    <span className="">POINTS ACCURAL</span> 
+              <div className="uppercase text-xl tracking-widest">
+              <p className='uppercase text-xl tracking-widest'>
+                    <span style={{color: "red"}}>POINTS ACCURAL</span> 
                 </p>
               </div>
+              
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
                 Earn & Burn
               </h3>
@@ -316,7 +317,7 @@ export default function Index() {
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-0">
               <div className="">
               <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                     TIERS AND LEVELS
+              <span style={{color: "red"}}> TIERS AND LEVELS</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
@@ -366,7 +367,7 @@ export default function Index() {
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="uppercase text-xl tracking-widest text-[#da3737]">
               <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                    JOIN, PLAY & UNLOCK
+              <span style={{color: "red"}}>JOIN, PLAY & UNLOCK</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
@@ -450,7 +451,7 @@ export default function Index() {
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-0">
               <div className="">
               <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                     DEALS & OFFERS
+              <span style={{color: "red"}}>DEALS & OFFERS</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
