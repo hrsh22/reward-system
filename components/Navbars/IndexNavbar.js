@@ -17,7 +17,7 @@ export default function Navbar(props) {
                 className="text-slate-700 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                 href="/"
               >
-                Notus NextJS
+                PerkVenue
               </a>
             </Link>
             <button

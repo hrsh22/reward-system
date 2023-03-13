@@ -149,7 +149,7 @@ export default function Footer() {
                   href="https://rewardsystem.vercel.app/"
                   className="text-slate-500 hover:text-slate-800"
                 >
-                  Voucherify
+                  PerkVenue
                 </a>
                 .
               </div>
