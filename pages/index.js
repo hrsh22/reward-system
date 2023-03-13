@@ -14,10 +14,10 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-slate-600">
-                Voucherify - A loyalty points system for increasing customer retention and engagement.
+                PerkVenue - A loyalty points system for increasing customer retention and engagement.
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                Voucherify creates a points-based customer loyalty programs with various earning rules. Build customer loyalty, by rewarding customers for their purchases, behavior, or specific interactions.It engages shoppers year-around, increase customer lifetime value and turn visitors into raving fans with our enterprise ready loyalty points platform.
+                PerkVenue creates a points-based customer loyalty programs with various earning rules. Build customer loyalty, by rewarding customers for their purchases, behavior, or specific interactions.It engages shoppers year-around, increase customer lifetime value and turn visitors into raving fans with our enterprise ready loyalty points platform.
               </p>
               {/* <div className="mt-12">
                 <a
@@ -103,56 +103,56 @@ export default function Index() {
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-thumbs-up"></i>
+                  <div className="px-4 py-5 mb-1 flex-auto">
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-thumbs-up text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-3xl mb-1 font-semibold">
                       Easy integration
                       </h6>
-                      <p className="mb-4 text-slate-500">
+                      <p className="mb-4 text-lg text-slate-500">
                       with any platform - on-premise or in the cloud
-                      </p>
+
+                      </p><br/>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-brain"></i>
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-sharp fa-solid fa-handshake text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                      Next-gen loyalty logic
+                      <h6 className="text-3xl mb-1 font-semibold">
+                      Enterprise ready from day one
                       </h6>
-                      <p className="mb-4 text-slate-500">
-                      with multi gamified touch points
-
+                      <p className="mb-4 text-lg text-slate-500">
+                      Trusted by over 1,000 global brands, processing millions of points & rewards daily with 99% uptime.
                       </p>
                     </div>
                   </div>
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-globe"></i>
+                      <div className=" p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-globe text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-3xl mb-1 font-semibold">
                       Redemption marketplace
                       </h6>
-                      <p className="mb-4 text-slate-500">
+                      <p className="mb-4 text-lg text-slate-500">
                       covering 20+ categories and 5000+ brands
-                      </p>
+                      </p><br/>
                     </div>
                   </div>
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className=" p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-chess-king"></i>
+                      <div className=" p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-chess-king text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-3xl mb-1 font-semibold">
                       Total control over loyalty logic                             
                       </h6>
-                      <p className="mb-4 text-slate-500">
+                      <p className="mb-4 text-lg text-slate-500">
                       While you focus on your business rules, we will apply your logic and automate your loyalty rewards.
                       </p>
                     </div>
@@ -163,38 +163,39 @@ export default function Index() {
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-truck-fast"></i>
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-truck-fast text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">Speed at your service</h6>
-                      <p className="mb-4 text-slate-500">
+                      <h6 className="text-3xl mb-1 font-semibold">Speed at your service</h6>
+                      <p className="mb-4 text-lg text-slate-500">
                       Get started with our dashboard and integrate our Loyalty API in less than one day
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-sharp fa-solid fa-handshake"></i>
+                    <div className="px-4 py-5  flex-auto">
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-brain text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
-                      Enterprise ready from day one
+                      <h6 className="text-3xl mb-1 font-semibold">
+                      Next-gen loyalty logic
                       </h6>
-                      <p className="mb-4 text-slate-500">
-                      Trusted by over 1,000 global brands, processing millions of points & rewards daily with 99% uptime.
-                      </p>
+                      <p className="mb-4 text-lg text-slate-500">
+                      with multi gamified touch points
+
+                      </p><br/>
                     </div>
                   </div>
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-headset"></i>
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fa-solid fa-headset text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-3xl mb-1 font-semibold">
                         Support for any front-end applications
                       </h6>
-                      <p className="mb-4 text-slate-500">
+                      <p className="mb-4 text-lg text-slate-500">
                         Build tailor-made loyalty mechaics with personalized user experiences at any touchpoint
                       </p>
                     </div>
@@ -202,13 +203,13 @@ export default function Index() {
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt"></i>
+                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                        <i className="fas fa-file-alt text-4xl"></i>
                       </div>
-                      <h6 className="text-xl mb-1 font-semibold">
+                      <h6 className="text-3xl mb-1 font-semibold">
                         Documentation
                       </h6>
-                      <p className="mb-4 text-slate-500">
+                      <p className="mb-4 text-lg text-slate-500">
                         Built by developers for developers. You will love how
                         easy is to to work with Notus NextJS.
                       </p>
@@ -226,11 +227,12 @@ export default function Index() {
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="uppercase text-xl tracking-widest text-[#da3737]">
-              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                    <span className="">POINTS ACCURAL</span> 
+              <div className="uppercase text-xl tracking-widest">
+              <p className='uppercase text-xl tracking-widest'>
+                    <span style={{color: "red"}}>POINTS ACCURAL</span> 
                 </p>
               </div>
+              
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
                 Earn & Burn
               </h3>
@@ -312,10 +314,10 @@ export default function Index() {
             </div>
             
 
-            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-0">
               <div className="">
               <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                     TIERS AND LEVELS
+              <span style={{color: "red"}}> TIERS AND LEVELS</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
@@ -365,7 +367,7 @@ export default function Index() {
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="uppercase text-xl tracking-widest text-[#da3737]">
               <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                    JOIN, PLAY & UNLOCK
+              <span style={{color: "red"}}>JOIN, PLAY & UNLOCK</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
@@ -446,10 +448,10 @@ export default function Index() {
             </div>
             
 
-            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
+            <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-0">
               <div className="">
               <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-                     DEALS & OFFERS
+              <span style={{color: "red"}}>DEALS & OFFERS</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
@@ -578,7 +580,7 @@ export default function Index() {
         {/* <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
-            <p className="text-lg leading-relaxed mt-4 mb-4 text-slate-500">
+            <p className="text-lg leading-relaxed mt-4 mb-4 text-lg text-slate-500">
               Notus NextJS is a completly new product built using our past
               experience in web templates. Take the examples we made for you and
               start playing with them.
