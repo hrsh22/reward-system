@@ -9,15 +9,23 @@ export default function Index() {
   return (
     <>
       <IndexNavbar fixed />
-      <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
+      <section className="header relative pt-0 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
-              <h2 className="font-semibold text-4xl text-slate-600">
-                PerkVenue - A loyalty points system for increasing customer retention and engagement.
+              <h1 className="font-bold text-4xl text-slate-600">Welcome to</h1>
+              <h1 className="font-bold text-6xl text-slate-600">PerkVenue</h1>
+              <h2 className="font-semibold text-2xl mt-2 text-slate-600">
+                A Blockchain-Based Reward Point Exchange System
               </h2>
-              <p className="mt-4 text-lg leading-relaxed text-slate-500">
-                PerkVenue creates a points-based customer loyalty programs with various earning rules. Build customer loyalty, by rewarding customers for their purchases, behavior, or specific interactions.It engages shoppers year-around, increase customer lifetime value and turn visitors into raving fans with our enterprise ready loyalty points platform.
+
+              <p className="mt-16 text-xl leading-relaxed text-slate-500">
+                PerkVenue is a cutting-edge digital platform that leverages the
+                power of blockchain technology to revolutionize reward point
+                exchange. With our seamless APIs, businesses can effortlessly
+                utilize NFTs and tokens as reward points to engage customers,
+                without requiring any knowledge of coding or blockchain
+                intricacies.{" "}
               </p>
               {/* <div className="mt-12">
                 <a
@@ -99,19 +107,217 @@ export default function Index() {
               </div>
             </div> */}
 
-            <div className="max-w-[1248px] mx-auto flex flex-col justify-center h-full">
+            <div className="relative">
+              <div className="flex flex-wrap items-center">
+                <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+                  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
+                    <img
+                      alt="..."
+                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                      className="w-full align-middle rounded-t-lg"
+                    />
+                    <blockquote className="relative p-8 mb-4">
+                      <svg
+                        preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 583 95"
+                        className="absolute left-0 w-full block h-95-px -top-94-px"
+                      >
+                        <polygon
+                          points="-30,95 583,95 583,65"
+                          className="text-slate-700 fill-current"
+                        ></polygon>
+                      </svg>
+                      <h4 className="text-xl font-bold text-white">
+                        Great for your awesome project
+                      </h4>
+                      <p className="text-md font-light mt-2 text-white">
+                        Putting together a page has never been easier than
+                        matching together pre-made components. From landing
+                        pages presentation to login areas, you can easily
+                        customize and build your pages.
+                      </p>
+                    </blockquote>
+                  </div>
+                </div>
+
+                <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+                  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
+                    <img
+                      alt="..."
+                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                      className="w-full align-middle rounded-t-lg"
+                    />
+                    <blockquote className="relative p-8 mb-4">
+                      <svg
+                        preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 583 95"
+                        className="absolute left-0 w-full block h-95-px -top-94-px"
+                      >
+                        <polygon
+                          points="-30,95 583,95 583,65"
+                          className="text-slate-700 fill-current"
+                        ></polygon>
+                      </svg>
+                      <h4 className="text-xl font-bold text-white">
+                        Great for your awesome project
+                      </h4>
+                      <p className="text-md font-light mt-2 text-white">
+                        Putting together a page has never been easier than
+                        matching together pre-made components. From landing
+                        pages presentation to login areas, you can easily
+                        customize and build your pages.
+                      </p>
+                    </blockquote>
+                  </div>
+                </div>
+
+                <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
+                  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
+                    <img
+                      alt="..."
+                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                      className="w-full align-middle rounded-t-lg"
+                    />
+                    <blockquote className="relative p-8 mb-4">
+                      <svg
+                        preserveAspectRatio="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 583 95"
+                        className="absolute left-0 w-full block h-95-px -top-94-px"
+                      >
+                        <polygon
+                          points="-30,95 583,95 583,65"
+                          className="text-slate-700 fill-current"
+                        ></polygon>
+                      </svg>
+                      <h4 className="text-xl font-bold text-white">
+                        Great for your awesome project
+                      </h4>
+                      <p className="text-md font-light mt-2 text-white">
+                        Putting together a page has never been easier than
+                        matching together pre-made components. From landing
+                        pages presentation to login areas, you can easily
+                        customize and build your pages.
+                      </p>
+                    </blockquote>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="w-10/12 md:w-6/12 lg:w-4/12 px-4 mb-6">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg bg-slate-700">
+                  <img
+                    alt="..."
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                  <blockquote className="relative p-8 mb-4">
+                    <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      className="absolute left-0 w-full block h-95-px -top-94-px"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        className="text-slate-700 fill-current"
+                      ></polygon>
+                    </svg>
+                    <h4 className="text-xl font-bold text-white">
+                      Great for your awesome project
+                    </h4>
+                    <p className="text-md font-light mt-2 text-white">
+                      Putting together a page has never been easier than
+                      matching together pre-made components. From landing pages
+                      presentation to login areas, you can easily customise and
+                      build your pages.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+
+
+              <div className="w-10/12 md:w-6/12 lg:w-4/12 px-4 mb-6">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg bg-slate-700">
+                  <img
+                    alt="..."
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                  <blockquote className="relative p-8 mb-4">
+                    <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      className="absolute left-0 w-full block h-95-px -top-94-px"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        className="text-slate-700 fill-current"
+                      ></polygon>
+                    </svg>
+                    <h4 className="text-xl font-bold text-white">
+                      Great for your awesome project
+                    </h4>
+                    <p className="text-md font-light mt-2 text-white">
+                      Putting together a page has never been easier than
+                      matching together pre-made components. From landing pages
+                      presentation to login areas, you can easily customise and
+                      build your pages.
+                    </p>
+                  </blockquote>
+                </div>
+              </div>
+
+              <div className="w-10/12 md:w-6/12 lg:w-4/12 px-4 mb-6">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full shadow-lg rounded-lg bg-slate-700">
+                  <img
+                    alt="..."
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                    className="w-full align-middle rounded-t-lg"
+                  />
+                  <blockquote className="relative p-8 mb-4">
+                    <svg
+                      preserveAspectRatio="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 583 95"
+                      className="absolute left-0 w-full block h-95-px -top-94-px"
+                    >
+                      <polygon
+                        points="-30,95 583,95 583,65"
+                        className="text-slate-700 fill-current"
+                      ></polygon>
+                    </svg>
+                    <h4 className="text-xl font-bold text-white">
+                      Great for your awesome project
+                    </h4>
+                    <p className="text-md font-light mt-2 text-white">
+                      Putting together a page has never been easier than
+                      matching together pre-made components. From landing pages
+                      presentation to login areas, you can easily customise and
+                      build your pages.
+                    </p>
+                  </blockquote>
+                </div>
+              </div> */}
+
+            {/* <div className="max-w-[1248px] mx-auto flex flex-col justify-center h-full">
               <div className="flex flex-wrap">
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col mt-4">
                   <div className="px-4 py-5 mb-1 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-thumbs-up text-4xl"></i>
+                      <div className="text-slate-500  p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+
+                        <i class="fa-solid fa-right-left text-4xl"></i>
                       </div>
                       <h6 className="text-3xl mb-1 font-semibold">
-                      Easy integration
+                      Seamless Reward Point Exchange
                       </h6>
                       <p className="mb-4 text-lg text-slate-500">
-                      with any platform - on-premise or in the cloud
+                      Exchange and redeem reward points effortlessly using blockchain technology.
 
                       </p><br/>
                     </div>
@@ -119,69 +325,59 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-sharp fa-solid fa-handshake text-4xl"></i>
+
+                        
+                        <i class="fa-solid fa-certificate text-4xl"></i>
                       </div>
                       <h6 className="text-3xl mb-1 font-semibold">
-                      Enterprise ready from day one
+                      NFTs as Exclusive Rewards
                       </h6>
                       <p className="mb-4 text-lg text-slate-500">
-                      Trusted by over 1,000 global brands, processing millions of points & rewards daily with 99% uptime.
-                      </p>
+                      Quickmint NFTs to create unique and exclusive rewards for your customers.                       </p>
                     </div>
                   </div>
 
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
-                      <div className=" p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-globe text-4xl"></i>
+                      <div className="text-slate-500  p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+        
+                        <i class="fa-solid fa-circle-plus text-4xl"></i>
+                        
                       </div>
                       <h6 className="text-3xl mb-1 font-semibold">
-                      Redemption marketplace
+                      Continuous Token Minting
                       </h6>
                       <p className="mb-4 text-lg text-slate-500">
-                      covering 20+ categories and 5000+ brands
+                      Mint additional tokens as rewards to engage and incentivize your customer base.
                       </p><br/>
                     </div>
                   </div>
-
-                  <div className="relative flex flex-col min-w-0">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className=" p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-chess-king text-4xl"></i>
-                      </div>
-                      <h6 className="text-3xl mb-1 font-semibold">
-                      Total control over loyalty logic                             
-                      </h6>
-                      <p className="mb-4 text-lg text-slate-500">
-                      While you focus on your business rules, we will apply your logic and automate your loyalty rewards.
-                      </p>
-                    </div>
-                  </div>
-
 
                 </div>
                 <div className="w-full md:w-6/12 px-4">
                   <div className="relative flex flex-col min-w-0 mt-4">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-truck-fast text-4xl"></i>
+              
+                        <i class="fa-solid fa-puzzle-piece text-4xl"></i>
                       </div>
-                      <h6 className="text-3xl mb-1 font-semibold">Speed at your service</h6>
+                      <h6 className="text-3xl mb-1 font-semibold">Simplified Integration</h6>
                       <p className="mb-4 text-lg text-slate-500">
-                      Get started with our dashboard and integrate our Loyalty API in less than one day
+                      Easy integration with your existing systems, no coding or blockchain knowledge required. 
                       </p>
                     </div>
                   </div>
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5  flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-brain text-4xl"></i>
+                
+                        <i class="fa-solid fa-medal text-4xl"></i>
                       </div>
                       <h6 className="text-3xl mb-1 font-semibold">
-                      Next-gen loyalty logic
+                      Branded Tokens
                       </h6>
                       <p className="mb-4 text-lg text-slate-500">
-                      with multi gamified touch points
+                      Create your own branded tokens as loyalty points or rewards within your ecosystem. 
 
                       </p><br/>
                     </div>
@@ -190,314 +386,396 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0">
                     <div className="px-4 py-5 flex-auto">
                       <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fa-solid fa-headset text-4xl"></i>
+      
+                        <i class="fa-solid fa-fire text-4xl"></i>
                       </div>
                       <h6 className="text-3xl mb-1 font-semibold">
-                        Support for any front-end applications
+                      Controlled Token Burning
                       </h6>
                       <p className="mb-4 text-lg text-slate-500">
-                        Build tailor-made loyalty mechaics with personalized user experiences at any touchpoint
-                      </p>
+                      Retire or remove tokens from circulation when needed for effective token management.                       </p>
                     </div>
                   </div>
 
-                  <div className="relative flex flex-col min-w-0">
-                    <div className="px-4 py-5 flex-auto">
-                      <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
-                        <i className="fas fa-file-alt text-4xl"></i>
-                      </div>
-                      <h6 className="text-3xl mb-1 font-semibold">
-                        Documentation
-                      </h6>
-                      <p className="mb-4 text-lg text-slate-500">
-                        Built by developers for developers. You will love how
-                        easy is to to work with Notus NextJS.
-                      </p>
-                    </div>
-                  </div>
                   
+                  
+                </div>
+              </div>
+            </div> */}
+            <div className="max-w-[1248px] mx-auto flex flex-wrap justify-between">
+              <div className="w-full md:w-5/12 lg:w-5/12 px-4">
+                <div className="relative flex flex-col mt-4">
+                  <div className="px-4 py-5 mb-1 flex-auto">
+                    <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                      <i className="fa-solid fa-right-left text-4xl"></i>
+                    </div>
+                    <h6 className="text-3xl mb-1 font-semibold">
+                      Seamless Exchange
+                    </h6>
+                    <p className="mb-4 text-lg text-slate-500">
+                      Exchange and redeem reward points effortlessly using
+                      blockchain technology.
+                    </p>
+                  </div>
+                </div>
+                <div className="relative flex flex-col min-w-0">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                      <i className="fa-solid fa-certificate text-4xl"></i>
+                    </div>
+                    <h6 className="text-3xl mb-1 font-semibold">
+                      NFTs as Exclusive Rewards
+                    </h6>
+                    <p className="mb-4 text-lg text-slate-500">
+                      Quickmint NFTs to create unique and exclusive rewards for
+                      your customers.
+                    </p>
+                  </div>
+                </div>
+                <div className="relative flex flex-col min-w-0">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                      <i class="fa-solid fa-gears text-4xl"></i>
+                    </div>
+                    <h6 className="text-3xl mb-1 font-semibold">
+                      Flexibility and Control
+                    </h6>
+                    <p className="mb-4 text-lg text-slate-500">
+                      Customize your rewards program and manage tokens according
+                      to your business needs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full md:w-5/12 lg:w-5/12 px-4">
+                <div className="relative flex flex-col min-w-0 mt-4">
+                  {/* <div className="px-4 py-5 flex-auto text-right">  */}
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                      <i className="fa-solid fa-puzzle-piece text-4xl"></i>
+                    </div>
+                    <h6 className="text-3xl mb-1 font-semibold">
+                      Simplified Integration
+                    </h6>
+                    <p className="mb-4 text-lg text-slate-500">
+                      Easy integration with your existing systems, no coding or
+                      blockchain knowledge required.
+                    </p>
+                  </div>
+                </div>
+                <div className="relative flex flex-col min-w-0">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                      <i className="fa-solid fa-medal text-4xl"></i>
+                    </div>
+                    <h6 className="text-3xl mb-1 font-semibold">
+                      Branded Tokens
+                    </h6>
+                    <p className="mb-4 text-lg text-slate-500">
+                      Create your own branded tokens as loyalty points or
+                      rewards within your ecosystem.
+                    </p>
+                  </div>
+                </div>
+                <div className="relative flex flex-col min-w-0">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="text-slate-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-5 shadow-lg rounded-full bg-white">
+                      <i class="fa-solid fa-handshake text-4xl"></i>
+                    </div>
+                    <h6 className="text-3xl mb-1 font-semibold">
+                      Partnerships and Collaboration
+                    </h6>
+                    <p className="mb-4 text-lg text-slate-500">
+                      Form alliances to expand opportunities and increase the
+                      program's value.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-
-
         <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="uppercase text-xl tracking-widest">
-              <p className='uppercase text-xl tracking-widest'>
-                    <span style={{color: "red"}}>POINTS ACCURAL</span> 
+                <p className="uppercase text-xl tracking-widest">
+                  <span style={{ color: "red" }}>POINTS ACCURAL</span>
                 </p>
               </div>
-              
+
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
                 Earn & Burn
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Encourage repeat purchase and improve customer loyalty by introducing points-based loyalty program that rewards customers for specific behaviors.
+                Encourage repeat purchase and improve customer loyalty by
+                introducing points-based loyalty program that rewards customers
+                for specific behaviors.
               </p>
-              
+
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
                 Rewards points based on custom triggers:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Give out points based on any custom event, behaviours, transaction or time. From referring a new customer, subscribing to content, making repeat purchase the possibilities are endless.
+                Give out points based on any custom event, behaviours,
+                transaction or time. From referring a new customer, subscribing
+                to content, making repeat purchase the possibilities are
+                endless.
               </p>
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
-              Diverse reward redemption capabilities:
+                Diverse reward redemption capabilities:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Delight your members by allowing them to redeem their points in many ways - from your own ecosystem (accrued points as money), on a rewards catalog buy digital vouchers of brands, pay with points
+                Delight your members by allowing them to redeem their points in
+                many ways - from your own ecosystem (accrued points as money),
+                on a rewards catalog buy digital vouchers of brands, pay with
+                points
               </p>
-            
+
               <div className="block pb-6">
-               <div className=" font-medium">Best fit for:
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Service
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Hospitality
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Electronics
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Retail
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Beauty
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Fashion & Lifestyle
-                </span>
+                <div className=" font-medium">
+                  Best fit for:
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Service
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Hospitality
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Electronics
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Retail
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Beauty
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Fashion & Lifestyle
+                  </span>
                 </div>
               </div>
-              
             </div>
 
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-              <img
-                alt="..."
-                className="max-w-full rounded-lg shadow-xl"
-                style={{
-                  transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
-                }}
-                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d001f08ef26093ede43_ezgif-3-45137881d4-p-800.webp"
-              />
-                
-                
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-xl"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                  }}
+                  // src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d001f08ef26093ede43_ezgif-3-45137881d4-p-800.webp"
+                  src="https://github.com/hrsh22/reward-system-docs/assets/90423812/7bf7806f-0fc7-4b23-bba1-5b5dcab3cb3e"
+                />
               </div>
             </div>
           </div>
 
           <div className="flex flex-wrap items-center pt-32">
-
-          <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-              <img
-                alt="..."
-                className="max-w-full rounded-lg shadow-xl"
-                style={{
-                  transform:
-                    "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
-                }}
-                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629a19007b79402bff3a39ed_Tiered%20Loyalty-p-800.webp"
-              />
-                
-                
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-xl"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
+                  }}
+                  src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629a19007b79402bff3a39ed_Tiered%20Loyalty-p-800.webp"
+                />
               </div>
             </div>
-            
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-0">
               <div className="">
-              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-              <span style={{color: "red"}}> TIERS AND LEVELS</span>
+                <p className="uppercase text-xl tracking-widest text-[#da3737]">
+                  <span style={{ color: "red" }}> TIERS AND LEVELS</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
                 Tiered Loyalty
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Encourage customers to spend more by enticing them with incremental benefits as they move up the tier.
+                Encourage customers to spend more by enticing them with
+                incremental benefits as they move up the tier.
               </p>
-              
+
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
                 Out-of-the-box loyalty campaigns:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Offer unique experience and flexible reward options based on tiers and keep your customers engaged over a long period of time. Higher customer retention = Improved CLV
+                Offer unique experience and flexible reward options based on
+                tiers and keep your customers engaged over a long period of
+                time. Higher customer retention = Improved CLV
               </p>
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
-              Integrated experience:
+                Integrated experience:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Stay competitive without feeding into the discount culture that devaluates your products. Give your affluent buyers an exclusive experience and VIP treatment.
+                Stay competitive without feeding into the discount culture that
+                devaluates your products. Give your affluent buyers an exclusive
+                experience and VIP treatment.
               </p>
               <div className="block pb-6">
-              <div className=" font-medium">Best fit for:
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  LMS
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Gaming Apps
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Retail
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                 Fashion & Lifestyle
-                </span>
+                <div className=" font-medium">
+                  Best fit for:
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    LMS
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Gaming Apps
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Retail
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Fashion & Lifestyle
+                  </span>
                 </div>
               </div>
-              
             </div>
           </div>
-
-
-
-
 
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="uppercase text-xl tracking-widest text-[#da3737]">
-              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-              <span style={{color: "red"}}>JOIN, PLAY & UNLOCK</span>
+                <p className="uppercase text-xl tracking-widest text-[#da3737]">
+                  <span style={{ color: "red" }}>JOIN, PLAY & UNLOCK</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
                 Gamified Loyalty
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Encourage customers to interact with your brand regularly by keeping them hooked with challenges and increase customer retention.
+                Encourage customers to interact with your brand regularly by
+                keeping them hooked with challenges and increase customer
+                retention.
               </p>
-              
+
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
                 Take your branding to new level with badges:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Encourage recurring behaviour by associating challenges with benefit. Keep it interesting with rule-based rewards that delights.
+                Encourage recurring behaviour by associating challenges with
+                benefit. Keep it interesting with rule-based rewards that
+                delights.
               </p>
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
-              Set up event-based challenges to prompt actions:
+                Set up event-based challenges to prompt actions:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Go beyond transactions. Incentive customers to engage on social media, create content, answer polls, daily streaks, and signup anniversary.
+                Go beyond transactions. Incentive customers to engage on social
+                media, create content, answer polls, daily streaks, and signup
+                anniversary.
               </p>
-            
+
               <div className="block pb-6">
-               <div className=" font-medium">Best fit for:
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Luxury brands
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Services
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Wellness
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Home Decor
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Fashion & Lifestyle
-                </span>
+                <div className=" font-medium">
+                  Best fit for:
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Luxury brands
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Services
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Wellness
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Home Decor
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Fashion & Lifestyle
+                  </span>
                 </div>
               </div>
-              
             </div>
 
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-              <img
-                alt="..."
-                className="max-w-full rounded-lg shadow-xl"
-                style={{
-                  transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
-                }}
-                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629eea1297a044778d2e07d5_Play%20%26%20Win.png"
-              />
-                
-                
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-xl"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                  }}
+                  src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629eea1297a044778d2e07d5_Play%20%26%20Win.png"
+                />
               </div>
             </div>
           </div>
 
           <div className="flex flex-wrap items-center pt-32">
-
-          <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-              <img
-                alt="..."
-                className="max-w-full rounded-lg shadow-xl"
-                style={{
-                  transform:
-                    "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
-                }}
-                src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d4c418e44607675d695_ezgif-3-9f50ed30f3-p-800.webp"
-              />
-                
-                
+                <img
+                  alt="..."
+                  className="max-w-full rounded-lg shadow-xl"
+                  style={{
+                    transform:
+                      "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
+                  }}
+                  src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d4c418e44607675d695_ezgif-3-9f50ed30f3-p-800.webp"
+                />
               </div>
             </div>
-            
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-0">
               <div className="">
-              <p className='uppercase text-xl tracking-widest text-[#da3737]'>
-              <span style={{color: "red"}}>DEALS & OFFERS</span>
+                <p className="uppercase text-xl tracking-widest text-[#da3737]">
+                  <span style={{ color: "red" }}>DEALS & OFFERS</span>
                 </p>
               </div>
               <h3 className="text-5xl mb-2 font-semibold leading-normal">
                 Benefit Loyalty
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Generate an emotional attachment and a sense of belongingness  to the brand with exclusive benefits which leads to recurring purchase.
+                Generate an emotional attachment and a sense of belongingness to
+                the brand with exclusive benefits which leads to recurring
+                purchase.
               </p>
-              
+
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46]">
-               Support brand building:
+                Support brand building:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Pre-negotiated deals and offer allow you to give your loyalty members a series of benefits on a regular basis. Which in turn makes the shopping experience great for its members and drives customer acquisition
+                Pre-negotiated deals and offer allow you to give your loyalty
+                members a series of benefits on a regular basis. Which in turn
+                makes the shopping experience great for its members and drives
+                customer acquisition
               </p>
               <h3 className="text-xl mb-2 font-semibold leading-normal text-[#f74c46">
-               High value for actual cost:
+                High value for actual cost:
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-slate-600">
-              Pre negotiated deals such as exclusive services and transaction-related privileges gives your brand a higher perceived value, though they come at a relatively lower cost for companies.
+                Pre negotiated deals such as exclusive services and
+                transaction-related privileges gives your brand a higher
+                perceived value, though they come at a relatively lower cost for
+                companies.
               </p>
               <div className="block pb-6">
-              <div className=" font-medium">Best fit for:
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                Fast fashion
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Beauty
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Luxury brands
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                 Service
-                </span>
+                <div className=" font-medium">
+                  Best fit for:
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Fast fashion
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Beauty
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Luxury brands
+                  </span>
+                  <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-slate-500 bg-white uppercase last:mr-0 mr-2 mt-2">
+                    Service
+                  </span>
                 </div>
               </div>
-              
             </div>
           </div>
-
-
-
-
-
-
         </div>
 
         {/* <div className="container mx-auto px-4 pb-32 pt-48">
@@ -643,7 +921,7 @@ export default function Index() {
           </div>
         </div>
       </section> */}
-{/* 
+      {/* 
       <section className="py-20 bg-slate-600 overflow-hidden">
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">

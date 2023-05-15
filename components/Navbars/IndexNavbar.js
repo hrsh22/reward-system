@@ -70,18 +70,18 @@ export default function Navbar(props) {
                   <i className="text-slate-400 fab fa-twitter text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Tweet</span>
                 </a>
-              </li>
+              </li> */}
 
               <li className="flex items-center">
                 <a
                   className="hover:text-slate-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index-navbar"
+                  href="https://rewardsystemdocs.vercel.app/"
                   target="_blank"
                 >
-                  <i className="text-slate-400 fab fa-github text-lg leading-lg " />
-                  <span className="lg:hidden inline-block ml-2">Star</span>
+                  {/* <i className="text-slate-400 fab fa-github text-lg leading-lg " /> */}
+                  <span className=" inline-block ml-2 mr-2">Documentation</span>
                 </a>
-              </li> */}
+              </li>
 
               {/* <li className="flex items-center">
                 <button
