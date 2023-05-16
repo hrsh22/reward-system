@@ -113,7 +113,8 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                     <img
                       alt="..."
-                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                      src="/img/homepage/instantaccess.png"
+                      // src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
                       className="w-full align-middle rounded-t-lg"
                     />
                     <blockquote className="relative p-8 mb-4">
@@ -128,14 +129,12 @@ export default function Index() {
                           className="text-slate-700 fill-current"
                         ></polygon>
                       </svg>
-                      <h4 className="text-xl font-bold text-white">
-                        Great for your awesome project
+                      <h4 className="text-xl text-center font-bold text-white">
+                        
+Instant Access
                       </h4>
-                      <p className="text-md font-light mt-2 text-white">
-                        Putting together a page has never been easier than
-                        matching together pre-made components. From landing
-                        pages presentation to login areas, you can easily
-                        customize and build your pages.
+                      <p className="text-md text-center font-light mt-2 text-white">
+                        Instantly access world renowned brands, thousands of rewards and millions of new members
                       </p>
                     </blockquote>
                   </div>
@@ -145,7 +144,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                     <img
                       alt="..."
-                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                      src="/img/homepage/fast.png"
                       className="w-full align-middle rounded-t-lg"
                     />
                     <blockquote className="relative p-8 mb-4">
@@ -160,15 +159,11 @@ export default function Index() {
                           className="text-slate-700 fill-current"
                         ></polygon>
                       </svg>
-                      <h4 className="text-xl font-bold text-white">
-                        Great for your awesome project
+                      <h4 className="text-xl text-center font-bold text-white">
+                         1 Simple and Fast Integration
                       </h4>
-                      <p className="text-md font-light mt-2 text-white">
-                        Putting together a page has never been easier than
-                        matching together pre-made components. From landing
-                        pages presentation to login areas, you can easily
-                        customize and build your pages.
-                      </p>
+                      <p className="text-md text-center font-light mt-2 text-white">
+Save time and money through 1 integration and 1 invoicing partner for all the brands you connect with                      </p>
                     </blockquote>
                   </div>
                 </div>
@@ -177,7 +172,7 @@ export default function Index() {
                   <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                     <img
                       alt="..."
-                      src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                      src="/img/homepage/bcinfra.png"
                       className="w-full align-middle rounded-t-lg"
                     />
                     <blockquote className="relative p-8 mb-4">
@@ -192,14 +187,11 @@ export default function Index() {
                           className="text-slate-700 fill-current"
                         ></polygon>
                       </svg>
-                      <h4 className="text-xl font-bold text-white">
-                        Great for your awesome project
+                      <h4 className="text-xl text-center font-bold text-white">
+                        Blockchain Infrastructure
                       </h4>
-                      <p className="text-md font-light mt-2 text-white">
-                        Putting together a page has never been easier than
-                        matching together pre-made components. From landing
-                        pages presentation to login areas, you can easily
-                        customize and build your pages.
+                      <p className="text-md text-center font-light mt-2 text-white">
+                        Blockchain technology protects your rewards currency, while providing full transparency and efficiency
                       </p>
                     </blockquote>
                   </div>
@@ -562,7 +554,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  className="max-w-full rounded-lg shadow-xl"
+                  className="max-w-full rounded-lg"
                   style={{
                     transform:
                       "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
@@ -579,7 +571,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  className="max-w-full rounded-lg shadow-xl"
+                  className="max-w-full rounded-lg"
                   style={{
                     transform:
                       "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
@@ -699,7 +691,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  className="max-w-full rounded-lg shadow-xl"
+                  className="max-w-full rounded-lg"
                   style={{
                     transform:
                       "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
@@ -716,7 +708,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  className="max-w-full rounded-lg shadow-xl"
+                  className="max-w-full rounded-lg"
                   style={{
                     transform:
                       "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
@@ -847,7 +839,7 @@ export default function Index() {
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
               <img
                 alt="..."
-                className="max-w-full rounded-lg shadow-xl"
+                className="max-w-full rounded-lg"
                 style={{
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
@@ -990,7 +982,7 @@ export default function Index() {
         </div>
 
         {/* <div className="container mx-auto">
-          <div className="flex flex-wrap justify-center bg-white shadow-xl rounded-lg -mt-64 py-16 px-12 relative z-10">
+          <div className="flex flex-wrap justify-center bg-white rounded-lg -mt-64 py-16 px-12 relative z-10">
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center">
                 <span role="img" aria-label="love">
