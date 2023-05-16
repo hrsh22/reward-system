@@ -568,7 +568,7 @@ export default function Index() {
                       "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                   }}
                   // src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d001f08ef26093ede43_ezgif-3-45137881d4-p-800.webp"
-                  src="https://github.com/hrsh22/reward-system-docs/assets/90423812/7bf7806f-0fc7-4b23-bba1-5b5dcab3cb3e"
+                  src="/img/homepage/earnandburn.jpg"
                 />
               </div>
             </div>
@@ -584,7 +584,8 @@ export default function Index() {
                     transform:
                       "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
                   }}
-                  src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629a19007b79402bff3a39ed_Tiered%20Loyalty-p-800.webp"
+                  // src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629a19007b79402bff3a39ed_Tiered%20Loyalty-p-800.webp"
+                  src="/img/homepage/tieredloyalty.jpg"
                 />
               </div>
             </div>
@@ -703,7 +704,8 @@ export default function Index() {
                     transform:
                       "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                   }}
-                  src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629eea1297a044778d2e07d5_Play%20%26%20Win.png"
+                  // src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/629eea1297a044778d2e07d5_Play%20%26%20Win.png"
+                      src="/img/homepage/gamifiedloyalty.jpg"
                 />
               </div>
             </div>
@@ -719,7 +721,8 @@ export default function Index() {
                     transform:
                       "scale(1) perspective(1040px) rotateY(17deg) rotateX(2deg) rotate(2deg)",
                   }}
-                  src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d4c418e44607675d695_ezgif-3-9f50ed30f3-p-800.webp"
+                  // src="https://assets-global.website-files.com/607c2dcc5c2f05804b369abb/63357d4c418e44607675d695_ezgif-3-9f50ed30f3-p-800.webp"
+                      src="/img/homepage/benefitloyalty.jpg"
                 />
               </div>
             </div>
